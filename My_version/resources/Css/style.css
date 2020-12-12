@@ -50,10 +50,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .header-options h4{
     border-bottom: 3px solid transparent;
     padding-bottom: 5px;
+    cursor: pointer;
     /* margin-bottom: 5px; */
     transition: all 0.4s;
     color: white;
@@ -199,6 +201,28 @@ body{
 }
 
 /*! sec 4 -  HOW IT WORKS */
+/* .sec4 h1{
+    text-align: center;
+    
+} */
+.sec4{
+    background-color: rgb(245, 243, 243);
+}
+.upper-box{
+    display: flex;
+    height:22vh ;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+}
+.upper-box h1{
+    font-weight: lighter;
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+}
 .sec4 .color-line{
     width: 100px;
     height: 2px;
@@ -208,10 +232,79 @@ body{
 .sec4 .box1{
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
+    margin: 10px auto;
+    /* border: 1px solid yellow; */
 }
-
+.sec4 .con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
 .sec4 .con1 img{
     width: 50%;
+}
+.sec4 .con2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sec4 .con2 h3{
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+.sec4 .con2 .btn-box{
+    cursor: pointer;
+}
+
+/* ! sec5 current cities section */
+.sec5 .upper-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec5 .upper-box h1{
+    font-weight: lighter;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+.sec5  .color-line{
+    height: 2px;
+    width: 100px;
+    margin: 18px auto;
+    background-color: orange;
+}
+
+.lower-box{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 2px auto;
+    /* border: 1px solid blue; */
+    height: 50vh;
+}
+.lower-box .imgs{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+}
+.lower-box .imgs h3{
+    margin: 10px 0;
+    font-weight: lighter;
+    font-size: 1.6em;
+}
+.lower-box .imgs h2{
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+.lower-box .imgs h2 a{
+    color: orange;
+}
+.lower-box img{
+    width: 100%;
 }
