@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: lato;
+    font-weight: 400;
+}   
+            /*  ! SEC1 */
+
+.sec1{
+    position: relative;
+    width: 99vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.551),rgba(0, 0, 0, 0.551)),url(/My_version/resources/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-color: ; */
+}
+
+.header{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 35vw 60vw;
+    height: 20vh;
+     /* border: 1px solid blue;   */
+} 
+.logo{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.image{
+    max-height: 16vh;
+    height: 100%;
+}
+
+.options{
+    display: grid;
+     grid-template-columns:30% auto auto auto auto ;
+}
+
+.header-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-options h4{
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+    /* margin-bottom: 5px; */
+    transition: all 0.4s;
+    color: white;
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+    font-weight: lighter;
+}
+.header-options h4:hover{
+    
+    border-bottom: 3px solid orange;
+}
+ 
+.text-box{
+    position: absolute;
+    top: 47%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+.text-box h1{
+    font-size: 3em;
+    font-weight: lighter;
+    color: white;
+    word-spacing: 5px;
+}
+
+.btn{
+    margin-top: 18px;
+    font-size: 20px;
+    padding:12px 30px;
+    border: none;
+    border-radius: 200px;
+    cursor:pointer;
+    outline: none
+    
+
+}
+.btn1{
+    background-color: rgb(243, 171, 38);
+    color: white;
+    margin-right: 15px;
+
+}
+.btn2{
+    background-color: transparent;
+    color: rgb(243, 171, 38);
+    border: 0.5px solid rgb(243, 171, 38);
+    padding: 11px 30px;
+    transition: all 0.4s;
+    border-color: rgb(243, 171, 38)
+        
+}
+.btn2:hover{
+ background-color: rgb(243, 171, 38);
+ color: white;
+}
+
+/*! Sec-2*/
+.sec2{
+    width: 100vw;
+    height: 85vh;
+    border: 1px solid blue;
+    
+}
+
+.sec2 .box1{
+    display: flex;
+    height: 30vh;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec2 .box1 h2{
+    letter-spacing: 3px;
+    /* font-weight: 20px; */
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+.sec2 .color-line{
+    width: 100px;
+    height: 2px;
+    /* color: orange; */
+    background-color: orange;
+    margin: 22px auto;
+}
+.sec2 .box1 h3{
+    letter-spacing: 1px;
+    /* font-weight: 20px; */
+    font-weight: lighter;
+    /* font-size: 1.5em; */
+}
+.sec2 .box2{
+    width: 100vw;
+    height: 55vh;
+    border: 4px solid greenyellow;
+    
+    /* grid-template-columns: ; */
+}
+
+.sec2 .box2 .box3{
+    width: 80vw;
+    height: 40vh;
+    display: grid;
+    margin: 6vh auto;
+    /* background-color: yellow; */
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-around;
+}
+.sec2 .item{
+    border: 1px solid red;
+    /* height: 40vh%; */
+}
+.sec2 .item h2{
+    font-weight: lighter;
+    margin: 20px auto;
+    font-size: 24px;;
+}
+.sec2 .item p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+/*! SEC3*/
+.sec3{
+    width: 100vw;
+    /* height: 60vh; */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+.imgs{
+    overflow: hidden;
+    background-color: black;
+}
+.sec3 img{
+    width: 100%;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+.sec3 img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+
+/*! sec 4 -  HOW IT WORKS */
+.sec4 .color-line{
+    width: 100px;
+    height: 2px;
+    margin: 18px auto;
+    background-color: orange;
+}
+.sec4 .box1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.sec4 .con1 img{
+    width: 50%;
+}
