@@ -233,6 +233,8 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     width: 60vw;
+    /* height: 38vw; */
+    padding-bottom:40px ;
     margin: 0 auto;
     margin: 10px auto;
     /* border: 1px solid yellow; */
@@ -241,10 +243,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 .sec4 .con1 img{
     width: 50%;
+    
 }
 .sec4 .con2{
     display: flex;
@@ -307,4 +310,69 @@ body{
 }
 .lower-box img{
     width: 100%;
+}
+
+/* ! sec 6  customers-section */
+.sec6 {
+    background-color: black;
+    width: 100vw;
+    height: 73vh;
+    border: 1px solid red;
+    
+}
+.sec6 .main-box{
+    background-image: url(/My_version/resources/Css/img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;   
+    border: 3px solid green;
+}
+.sec6 .upper-box h1{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+.sec6 .color-line{
+    background-color: orange;
+    height: 2px;
+    width: 100px;
+    margin: 20px auto;
+}
+.sec6 .lower-box{
+    display:flex;
+    grid-template-columns:22% 22% 22%;
+    justify-content: space-around;
+    width: 70vw;
+}
+.sec6 .lower-box p{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2em;
+    /* line-height: 50; */
+}
+
+/*!  sec7 eating healthy */
+.sec7 .upper-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec7 .upper-box .h1{
+    font-weight: lighter;
+    font-size:2.5em;
+    font-weight: lighter;
+}
+.sec7 .color-line{
+    height: 2px;
+    width: 100px;
+    margin: 20px auto;
+    background-color: orange;
+}
+.sec .lower-box{
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    justify-content: space-around;
+    width: 70vw;
 }
